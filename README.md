@@ -2,7 +2,7 @@
 
 TypeScript/Node API that answers questions from scraped Express.js guide pages, with citations. It refuses questions the docs don't cover.
 
-**Live demo:** [URL]/ask
+**Live demo:** [not live]/ask
 
 ## How it works
 scrape (cheerio) → chunk (2000 chars, 200 overlap) → embed (OpenAI text-embedding-3-small) → store (Supabase pgvector) → retrieve top 5 by cosine similarity → answer from retrieved context only (OpenAI chat model)
