@@ -1,0 +1,13 @@
+[
+  { "q": "How do I create a basic Express app?", "keywords": ["express()", "listen"] },
+  { "q": "How do I define a route for POST requests?", "keywords": ["app.post"] },
+  { "q": "What arguments does an error-handling middleware take?", "keywords": ["err", "req", "res", "next"] },
+  { "q": "Where should error-handling middleware be placed?", "keywords": ["after"] },
+  { "q": "How do I enable debug logs in Express?", "keywords": ["DEBUG"] },
+  { "q": "What is the trust proxy setting for?", "keywords": ["proxy"] },
+  { "q": "How do I read route parameters?", "keywords": ["req.params"] },
+  { "q": "What does next() do in middleware?", "keywords": ["next"] },
+  { "q": "How do I connect Express to MongoDB?", "expectUnknown": true },
+  { "q": "How do I connect a database to an Express app?", "keywords": ["driver"] },
+  { "q": "Who won the 2018 World Cup?", "expectUnknown": true }
+]
